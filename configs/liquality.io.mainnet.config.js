@@ -104,15 +104,15 @@ export default {
     UNI: {
       type: 'erc20',
       rpc: {
-        url: 'https://mainnet.infura.io/v3/37efa691ffec4c41a60aa4a69865d8f6'
+        url: 'https://rinkeby.infura.io/v3/6eaf86c3bbff475aa5c433cbaf42fb40'
       },
       api: {
         type: 'scraper',
-        url: 'https://liquality.io/eth-mainnet-api'
+        url: 'https://liquality.io/eth-rinkeby-api'
       },
       contractAddress: '0x1f9840a85d5af5bf1d1762f925bdaddc4201f984',
-      network: 'ethereum_mainnet',
-      explorerPath: 'https://etherscan.io/tx/0x'
+      network: 'rinkeby',
+      explorerPath: 'https://rinkeby.etherscan.io/tx/0x'
     },
     NEAR: {
       explorerPath: 'https://explorer.mainnet.near.org/transactions/'
