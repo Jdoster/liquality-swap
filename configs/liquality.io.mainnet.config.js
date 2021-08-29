@@ -18,14 +18,14 @@ export default {
     },
     ETH: {
       rpc: {
-        url: 'https://mainnet.infura.io/v3/37efa691ffec4c41a60aa4a69865d8f6'
+        url: 'https://rinkeby.infura.io/v3/6eaf86c3bbff475aa5c433cbaf42fb40'
       },
       api: {
         type: 'scraper',
-        url: 'https://liquality.io/eth-mainnet-api'
+        url: 'https://liquality.io/eth-rinkeby-api'
       },
-      network: 'ethereum_mainnet',
-      explorerPath: 'https://etherscan.io/tx/0x'
+      network: 'rinkeby',
+      explorerPath: 'https://rinkeby.etherscan.io/tx/0x'
     },
     BTC: {
       api: {
@@ -52,54 +52,54 @@ export default {
     DAI: {
       type: 'erc20',
       rpc: {
-        url: 'https://mainnet.infura.io/v3/37efa691ffec4c41a60aa4a69865d8f6'
+        url: 'https://rinkeby.infura.io/v3/6eaf86c3bbff475aa5c433cbaf42fb40'
       },
       api: {
         type: 'scraper',
-        url: 'https://liquality.io/eth-mainnet-api'
+        url: 'https://liquality.io/eth-rinkeby-api'
       },
-      contractAddress: '0x6b175474e89094c44da98b954eedeac495271d0f',
-      network: 'ethereum_mainnet',
-      explorerPath: 'https://etherscan.io/tx/0x'
+      contractAddress: '0x5592ec0cfb4dbc12d3ab100b257153436a1f0fea',
+      network: 'rinkeby',
+      explorerPath: 'https://rinkeby.etherscan.io/tx/0x'
     },
     USDC: {
       type: 'erc20',
       rpc: {
-        url: 'https://mainnet.infura.io/v3/37efa691ffec4c41a60aa4a69865d8f6'
+        url: 'https://rinkeby.infura.io/v3/6eaf86c3bbff475aa5c433cbaf42fb40'
       },
       api: {
         type: 'scraper',
-        url: 'https://liquality.io/eth-mainnet-api'
+        url: 'https://liquality.io/eth-rinkeby-api'
       },
-      contractAddress: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
-      network: 'ethereum_mainnet',
-      explorerPath: 'https://etherscan.io/tx/0x'
+      contractAddress: '0x4dbcdf9b62e891a7cec5a2568c3f4faf9e8abe2b',
+      network: 'rinkeby',
+      explorerPath: 'https://rinkeby.etherscan.io/tx/0x'
     },
     USDT: {
       type: 'erc20',
       rpc: {
-        url: 'https://mainnet.infura.io/v3/37efa691ffec4c41a60aa4a69865d8f6'
+        url: 'https://rinkeby.infura.io/v3/6eaf86c3bbff475aa5c433cbaf42fb40'
       },
       api: {
         type: 'scraper',
-        url: 'https://liquality.io/eth-mainnet-api'
+        url: 'https://liquality.io/eth-rinkeby-api'
       },
-      contractAddress: '0xdac17f958d2ee523a2206206994597c13d831ec7',
-      network: 'ethereum_mainnet',
-      explorerPath: 'https://etherscan.io/tx/0x'
+      contractAddress: '0xd9ba894e0097f8cc2bbc9d24d308b98e36dc6d02',
+      network: 'rinkeby',
+      explorerPath: 'https://rinkeby.etherscan.io/tx/0x'
     },
     WBTC: {
       type: 'erc20',
       rpc: {
-        url: 'https://mainnet.infura.io/v3/37efa691ffec4c41a60aa4a69865d8f6'
+        url: 'https://rinkeby.infura.io/v3/6eaf86c3bbff475aa5c433cbaf42fb40'
       },
       api: {
         type: 'scraper',
-        url: 'https://liquality.io/eth-mainnet-api'
+        url: 'https://liquality.io/eth-rinkeby-api'
       },
-      contractAddress: '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599',
-      network: 'ethereum_mainnet',
-      explorerPath: 'https://etherscan.io/tx/0x'
+      contractAddress: '0x577d296678535e4903d59a4c929b718e1d575e0a',
+      network: 'rinkeby',
+      explorerPath: 'https://rinkeby.etherscan.io/tx/0x'
     },
     UNI: {
       type: 'erc20',
