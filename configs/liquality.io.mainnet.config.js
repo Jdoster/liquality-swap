@@ -16,6 +16,39 @@ export default {
       network: 'polygon_mainnet',
       explorerPath: 'https://explorer-mainnet.maticvigil.com/tx/0x'
     },
+    
+    CHI: {
+      type: 'erc20',
+      rpc: {
+        url: 'https://rpc-mainnet.matic.network/'
+      },
+      api: {
+        type: 'scraper',
+        url: 'https://liquality.io/polygon-mainnet-api'
+      },
+      contractAddress: '0x0000000000004946c0e9f43f4dee607b0ef1fa1c',
+      network: 'polygon_mainnet',
+      explorerPath: 'https://explorer-mainnet.maticvigil.com/tx/0x'
+      
+      },
+    
+    ALCX: {
+      type: 'erc20',
+      rpc: {
+        url: 'https://rpc-mainnet.matic.network/'
+      },
+      api: {
+        type: 'scraper',
+        url: 'https://liquality.io/polygon-mainnet-api'
+      },
+      contractAddress: '0x59b8e1ef875336949673db6365b8364ae954addc',
+      network: 'polygon_mainnet',
+      explorerPath: 'https://explorer-mainnet.maticvigil.com/tx/0x'
+      
+      },
+    
+    
+   
     ETH: {
       rpc: {
         url: 'https://rinkeby.infura.io/v3/6eaf86c3bbff475aa5c433cbaf42fb40'
