@@ -2,7 +2,7 @@ export default {
   assets: {
     ETH: {
       rpc: {
-        url: 'http://localhost:8545',
+        url: 'https://api-rinkeby.etherscan.io',
         wallet: true
       }
     },
