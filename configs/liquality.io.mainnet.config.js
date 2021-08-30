@@ -40,14 +40,14 @@ export default {
     },
     RBTC: {
       rpc: {
-        url: 'https://public-node.rsk.co'
+        url: 'https://public-node.testnet.rsk.co'
       },
       api: {
         type: 'scraper',
-        url: 'https://liquality.io/rsk-mainnet-api'
+        url: 'https://liquality.io/rsk-testnet-api'
       },
-      network: 'rsk_mainnet',
-      explorerPath: 'https://explorer.rsk.co/tx/0x'
+      network: 'rsk_testnet',
+      explorerPath: 'https://explorer.testnet.rsk.co/tx/0x'
     },
     DAI: {
       type: 'erc20',
