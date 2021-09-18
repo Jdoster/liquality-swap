@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { assets as cryptoassets } from '@liquality/cryptoassets'
+import { assets as cryptoassets } from '@jdoster/cryptoassets'
 import Button from '../../components/Button/Button'
 import { shortenAddress } from '../../utils/address'
 import { wallets } from '../../utils/wallets'
